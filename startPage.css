@@ -1,0 +1,25 @@
+.leftColumn {
+	width: 50%;
+	float: left;
+}
+
+.rightColumn {
+	width: 50%;
+	float: right;
+}
+
+.button {
+	border: 2px solid black;
+    width: 100px;
+    height: 50px;
+}
+
+.inputElements {
+	height: 20px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.inputBox {
+	
+}
