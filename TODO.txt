@@ -1,0 +1,10 @@
+Let's Go All Night TODO:
+
+Alpha (MVP) features:
+-Simple group creation and joining (display location, time, participants)
+
+
+Further features:
+-Mass group messages on location change
+-Group picture
+-Edit info
