@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>Let's Go All Night</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+    <link href="../../startPage.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Let's Go All Night!</h3>
+      </div>
+
+      <div class="jumbotron">
+        <p class="lead"> Don't work alone! Find other people on campus who are pulling all nighters, just like you, to study with!</p>
+      </div>
+
+      <div class="sessions jumbotron"></div>
+      <div class="createSession">
+          <div style="width:550px">
+              <h3> Create your own session </h3>
+              <form id="createSession" action="new_session_exec.php" onsubmit= "return true;" method="post">
+                  <div class="input-group">
+                      <span class="input-group-addon">Cellphone</span>
+                      <input class="form-control" name="phone" type="tel"></input>
+                  </div>
+                  <div class="input-group">
+                      <span class="input-group-addon">Where</span>
+                      <input class="form-control" name="location"type="text"> </input>
+                  </div>
+                  <div class="input-group">
+                      <span class="input-group-addon">Notes</span>
+                      <input class="form-control" name="description" type="tel"></input>
+                  </div>
+                  <div>   
+                      <h5 style="display:inline;margin-left:5px;margin-right:10px"> Time: </h5>                
+                      <select class="time" name="timeHr" type="number">
+                          <option value="1">01</option>
+                          <option value="2">02</option>
+                          <option value="3">03</option>
+                          <option value="4">04</option>
+                          <option value="5">05</option>
+                          <option value="6">06</option>
+                          <option value="7">07</option>
+                          <option value="8">08</option>
+                          <option value="9">09</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                      </select>
+                      <select class="time" name="timeMin" type="number">
+                          <option value="0">00</option>
+                          <option value="5">05</option>
+                          <option value="10">10</option>
+                          <option value="15">15</option>
+                          <option value="20">20</option>
+                          <option value="25">25</option>
+                          <option value="30">30</option>
+                          <option value="35">35</option>
+                          <option value="40">40</option>
+                          <option value="45">45</option>
+                          <option value="50">50</option>
+                          <option value="55">55</option>
+                      </select>
+                      <select class="time" name="timeAMPM" type="time">
+                          <option class="time" value="am">AM</option>
+                          <option class="time" value="pm">PM</option>
+                      </select>
+                  </div>   
+                  <div class="btn-group submit-btn">
+                    <button type="button submit" class="btn btn-success btn-default">Let's Go All Night!</button>
+                  </div>
+          </form>
+          </div>
+      </div>
+     
+
+      <div class="footer">
+        <p>&copy; Company 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>

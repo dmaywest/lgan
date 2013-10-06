@@ -1,25 +1,13 @@
-.leftColumn {
-	width: 50%;
-	float: left;
+.input-group {
+	margin: 5px;
 }
 
-.rightColumn {
-	width: 50%;
-	float: right;
+input-group-addon {
+	width:50px;
 }
 
-.button {
-	border: 2px solid black;
-    width: 100px;
-    height: 50px;
-}
-
-.inputElements {
-	height: 20px;
-	margin-top: 10px;
-	width: 100%;
-}
-
-.inputBox {
-	
+.submit-btn {
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-top:10px;
 }

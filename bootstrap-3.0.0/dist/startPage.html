@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Let's Go All Night!</title>
+    <link href="../../startPage.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+    <!-- <h1 id="title">Let's Go All Night</h1>
+    <div id="about">
+        <p>Up late studying? Study with buddies!</p>
+    </div> -->
+    <!-- <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="navbar-form navbar-right">
+                <div class="form-group">
+                  <input type="text" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <input type="password" placeholder="Password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Sign in</button>
+              </form>
+            </div><!--/.navbar-collapse -->
+          <!-- </div>
+        </div>  -->
+        
+    <div class="mainColumn">
+        <div>
+            <form id="createSession" action="new_session_exec.php" onsubmit= "return true;" method="post">
+                <div class="input-group">
+                    <span class="input-group-addon">What's your number?</span>
+                    <input class="form-control" name="phone" type="tel"></input>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Where you studying?</span>
+                    <input class="form-control" name="location"type="text"> </input>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">Have something to say?</span>
+                    <input class="form-control" name="description" type="tel"></input>
+                </div>
+                <div>
+                
+                    <!-- <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                            Hour <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" role="menu">
+                            <li value="1">01</li>
+                            <li value="2">02</li>
+                            <li value="3">03</li>
+                            <li value="4">04</li>
+                            <li value="5">05</li>
+                            <li value="6">06</li>
+                            <li value="7">07</li>
+                            <li value="8">08</li>
+                            <li value="9">09</li>
+                            <li value="10">10</li>
+                            <li value="11">11</li>
+                            <li value="12">12</li>
+                        </ul>
+                    </div> -->
+                    <select class="time" name="timeHr" type="number">
+                        <option value="1">01</option>
+                        <option value="2">02</option>
+                        <option value="3">03</option>
+                        <option value="4">04</option>
+                        <option value="5">05</option>
+                        <option value="6">06</option>
+                        <option value="7">07</option>
+                        <option value="8">08</option>
+                        <option value="9">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select class="time" name="timeMin" type="number">
+                        <option value="0">00</option>
+                        <option value="5">05</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                        <option value="35">35</option>
+                        <option value="40">40</option>
+                        <option value="45">45</option>
+                        <option value="50">50</option>
+                        <option value="55">55</option>
+                    </select>
+                    <select class="time" name="timeAMPM" type="time">
+                        <option class="time" value="am">AM</option>
+                        <option class="time" value="pm">PM</option>
+                    </select>
+                </div>   
+                <div class="btn-group submit-btn">
+                  <button type="button submit" class="btn btn-success btn-default btn-lg">Let's Go All Night!</button>
+                </div>
+        </form>
+        </div>
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src= "../assets/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
